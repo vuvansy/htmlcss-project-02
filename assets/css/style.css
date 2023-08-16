@@ -417,9 +417,16 @@ a {
     background: #2e2100;
 }
 
+.feedback-list {
+    display: flex;
+    overflow: hidden;
+}
+
 .feedback-item {
     display: flex;
+    width: 100%;
     justify-content: space-between;
+    flex-shrink: 0;
 }
 
 .feedback-item .avatar {
